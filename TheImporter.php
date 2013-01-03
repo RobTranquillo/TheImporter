@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: TheImporter
-Plugin URI: http://robtranquillo.wordpress.org
+Plugin URI: http://robtranquillo.wordpress.com
 Description: Generate new worpress-posts by importig an directory. For more, read the readme!
 Version: 0.1
 Author: Rob Tranquillo
-Author URI: http://robtranquillo.wordpress.org
+Author URI: http://robtranquillo.wordpress.com
 Update Server: *
 Min WP Version: 3.4.2
 Max WP Version: *
@@ -24,19 +24,6 @@ Max WP Version: *
     You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
-
-/*
-	Wünsche für später
-	- Schalter im XML Tag-Customfields das sagt ob die Customfields in XML oder  [prop]:[val] gespeichert sind
-	- statt handisch oder cron sollte ein automatischer import möglich sein, wenn sich an der datenquelle was getan hat. (gabs in csv2ngg schon)
-	- utf8 einstellung des XMLs automatisch erkennen und notfalls fix konvertieren	
-	- settings management verbessern. Statt bei SetSettings immer die ganze Datei einzulesen und auszuwerten sollte sie nur einmal 
-	am Anfang einglesen werden und bei einer Änderung der Wert in dieser speichervariablen verändert werden und das ganze arr 
-	wieder in die Datei geworfen werden 
-	- statt alles in einzelnen Unterordnern, sollte es eine intelligente funktion für die alles flat in einem Verz. liegt 
-	und die Intelligenz des plugins ausreicht den zusammenhang zu erkennen.
-	- import so wie bei csv2ngg alle post sind in einer csv alle bilder liegen daneben
 */
 
  class TheImporterException extends Exception {}
